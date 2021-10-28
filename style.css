@@ -1,0 +1,61 @@
+/* 
+Theme Name: CometTheme
+Theme URL: comettheme.com
+Author: Jakir H.
+Author URL: jakirriaaz.com
+Descriptions: This is a popular wordpress theme
+Version: 1.0.1
+Tags: business, ecommerce, woocommerce, portfolio, personal, blog
+Text Domain: comet
+License: GNU
+License URL: gnu.com
+
+ */
+
+
+ .post-body iframe {
+    width: 100%!important;
+    max-height: 150px!important;
+}
+
+.post-body iframe {
+    width: 100%;
+    max-height: 150px;
+}
+
+.widget ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.widget ul >li>a{
+    padding: 12px 0;
+    border-bottom: 1px solid #e7e7e7;
+    letter-spacing: 1px;
+    }
+
+.widget h6 {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.widget .tagcloud a {
+    padding: 10px 15px;
+    border: 1px solid #191b1d;
+    margin: 0 10px 10px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-weight: 500;
+}
+
+.widget .tagcloud a:hover {
+    background-color: #EF2D56;
+    border-color: #EF2D56;
+    color: #fff;
+}
